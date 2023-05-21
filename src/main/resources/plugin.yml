@@ -1,3 +1,4 @@
 main: io.github.sinhajun.PaperSample
 name: ${name}
 version: '${version}'
+api-version: 1.19
