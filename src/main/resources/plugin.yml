@@ -2,3 +2,6 @@ main: io.github.sinhajun.PaperSample
 name: ${name}
 version: '${version}'
 api-version: 1.19
+libraries:
+  - org.jetbrains.kotlin:kotlin-stdlib:1.8.21
+  - org.jetbrains.kotlin:kotlin-reflect:1.8.21
