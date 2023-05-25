@@ -40,7 +40,7 @@ tasks.processResources {
 tasks.register("copyPlugin", Copy::class) {
     doFirst { println("copying built plugin ...") }
 
-    from("build/libs/" + "(플러그인 이름)") // 예 : paper-sample-1.0-SNAPSHOT.jar
+    from("build/libs/" + "(플러그인 이름)") // 예 : paper-sample-0.0.1.jar
     into("(서버 플러그인 파일 경로)") // 예: ~/PluginServer/plugins
 
     doLast { println("copied built plugin!") }
