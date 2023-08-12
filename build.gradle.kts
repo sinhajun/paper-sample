@@ -3,7 +3,7 @@ plugins {
     kotlin("jvm") version "1.8.21"
 }
 
-val pluginPath: String = "서버 플러그인 파일 경로"
+val pluginPath: String = "서버 플러그인 파일 경로" // 예: ~/PluginServer/plugins
 group = "io.github.sinhajun"
 version = "0.0.1"
 
@@ -42,7 +42,7 @@ tasks.register("copyPlugin", Copy::class) {
     doFirst { println("copying built plugin ...") }
 
     from("build/libs/" + "${rootProject.name}-${version}.jar") // 예 : paper-sample-0.0.1.jar
-    into(pluginPath) // 예: ~/PluginServer/plugins
+    into(pluginPath)
 
     doLast { println("copied built plugin!") }
 }
