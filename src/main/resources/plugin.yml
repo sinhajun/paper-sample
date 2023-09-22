@@ -1,4 +1,4 @@
-main: io.github.sinhajun.PaperSample
+main: io.github.sinhajun
 name: ${name}
 version: '${version}'
 api-version: '1.20'
