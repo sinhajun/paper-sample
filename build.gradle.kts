@@ -3,7 +3,7 @@ plugins {
     kotlin("jvm") version "1.8.21"
 }
 
-val pluginPath: String = "서버 플러그인 파일 경로" // 예: ~/PluginServer/plugins
+val pluginPath: String = ".server/plugins" // 예: ~/PluginServer/plugins
 group = "io.github.sinhajun"
 version = "0.0.1"
 
