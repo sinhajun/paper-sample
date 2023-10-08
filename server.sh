@@ -18,6 +18,7 @@ java -jar paper.jar
 sed -i 's/eula=false/eula=true/' eula.txt
 sed -i 's/gamemode=survival/gamemode=creative/' server.properties
 sed -i 's/enable-command-block=false/enable-command-block=true/' server.properties
+sed -i 's/white-list=false/white-list=true/' server.properties
 
 # 서버 다시 실행
 java -jar paper.jar
