@@ -8,7 +8,7 @@ DIRECTORY=".server"
 mkdir "$DIRECTORY" && cd "$DIRECTORY" || exit
 
 # paper.jar 파일 다운
-wget https://api.papermc.io/v2/projects/paper/versions/1.20.1/builds/196/downloads/paper-1.20.1-196.jar -O paper.jar
+wget https://api.papermc.io/v2/projects/paper/versions/1.20.4/builds/381/downloads/paper-1.20.4-381.jar -O paper.jar
 
 # 서버 실행
 java -jar paper.jar
